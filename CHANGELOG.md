@@ -1,5 +1,120 @@
 # Changelog
 
+## [3.0.0](https://www.github.com/picchioni/streetmerchant/compare/v2.0.0...v3.0.0) (2020-12-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* removed duplicated `Model`
+
+### Features
+
+* **bestbuy:** add 3060 series ([#1074](https://www.github.com/picchioni/streetmerchant/issues/1074)) ([e9a39c4](https://www.github.com/picchioni/streetmerchant/commit/e9a39c40925736a2126f6138c369710989904d1d))
+* **bestbuy-ca:** add 3060ti cards ([29478bf](https://www.github.com/picchioni/streetmerchant/commit/29478bff2d27d780cc6142526f3970b4a87290bc))
+* **canadacomputers:** add ryzen 5000 series ([#842](https://www.github.com/picchioni/streetmerchant/issues/842)) ([6f27330](https://www.github.com/picchioni/streetmerchant/commit/6f273305df69ac7b420b5446b4c6824866821a7e))
+* **coolmod:** add `maxPrice` ([#862](https://www.github.com/picchioni/streetmerchant/issues/862)) ([4b689cb](https://www.github.com/picchioni/streetmerchant/commit/4b689cb94e99b83c8829c11d1bfe4cd6db9fbd7a))
+* **docs:** add mkdocs ([243109a](https://www.github.com/picchioni/streetmerchant/commit/243109a4ffdfe1d1efe961af0b5cf28fd7e6ef1d))
+* **newegg-ca:** add big navi links ([#843](https://www.github.com/picchioni/streetmerchant/issues/843)) ([6d292a1](https://www.github.com/picchioni/streetmerchant/commit/6d292a11cd53bd3893d4a0ff5d13eb2ce3319faa))
+* **notification:** add price to links ([#1209](https://www.github.com/picchioni/streetmerchant/issues/1209)) ([15ec12b](https://www.github.com/picchioni/streetmerchant/commit/15ec12b0a3a95716243bfd06f6d41959bff7c36e)), closes [#1188](https://www.github.com/picchioni/streetmerchant/issues/1188) [#673](https://www.github.com/picchioni/streetmerchant/issues/673) [#1187](https://www.github.com/picchioni/streetmerchant/issues/1187)
+* **notification:** add product link to email and telegram ([#816](https://www.github.com/picchioni/streetmerchant/issues/816)) ([777c31b](https://www.github.com/picchioni/streetmerchant/commit/777c31b420a38cab860d98bc6bd8b7ba990c55e7))
+* **proxy:** socks5 support ([#933](https://www.github.com/picchioni/streetmerchant/issues/933)) ([364c6c2](https://www.github.com/picchioni/streetmerchant/commit/364c6c25dfe9dcbeb29cb20cb46e9e8dcc2fe86b))
+* **store:** add 3060ti to newegg-ca, canadacomputer, memoryexpress ([#1172](https://www.github.com/picchioni/streetmerchant/issues/1172)) ([09f0236](https://www.github.com/picchioni/streetmerchant/commit/09f0236086c59b25ebe611041bf063d536e3cc3d))
+* **store:** add amazon-de-warehouse ([#1102](https://www.github.com/picchioni/streetmerchant/issues/1102)) ([6de8c4a](https://www.github.com/picchioni/streetmerchant/commit/6de8c4a5eec8d66fb47d87e309866ba18f3e28c7))
+* **store:** add amd rx 6000 series model ([#832](https://www.github.com/picchioni/streetmerchant/issues/832)) ([89a762e](https://www.github.com/picchioni/streetmerchant/commit/89a762e2f5cd2ebd56c2586b1ebead4171b67153))
+* **store:** add antonline store ([#1042](https://www.github.com/picchioni/streetmerchant/issues/1042)) ([19eece1](https://www.github.com/picchioni/streetmerchant/commit/19eece18dccd4489e1e441b92061fc3b5743e4cd))
+* **store:** add argos with ps5 ([b2f5c1a](https://www.github.com/picchioni/streetmerchant/commit/b2f5c1a3ed93cfd56e575ec634d235565a17b6bc))
+* **store:** add awd(uk), add 3060ti link builders ([#1114](https://www.github.com/picchioni/streetmerchant/issues/1114)) ([36e3806](https://www.github.com/picchioni/streetmerchant/commit/36e38068d8cd284c741d4906d5ba5fe8cff85d24))
+* **store:** add captcha check to saturn and mediamarkt ([#876](https://www.github.com/picchioni/streetmerchant/issues/876)) ([2d01cfd](https://www.github.com/picchioni/streetmerchant/commit/2d01cfddff557f112c6d53473dad25eb299f2fc0))
+* **store:** add corsair sfx PSUs ([#881](https://www.github.com/picchioni/streetmerchant/issues/881)) ([e552c91](https://www.github.com/picchioni/streetmerchant/commit/e552c9102dd9801dcfc35652f2aaa0b1eea18ebb))
+* **store:** add custom labels for links ([#1183](https://www.github.com/picchioni/streetmerchant/issues/1183)) ([f7b32e8](https://www.github.com/picchioni/streetmerchant/commit/f7b32e8ac56c29207c6b30b9168c34c021a5e227)), closes [#1132](https://www.github.com/picchioni/streetmerchant/issues/1132) [#1163](https://www.github.com/picchioni/streetmerchant/issues/1163)
+* **store:** add el corte ingles ([#1107](https://www.github.com/picchioni/streetmerchant/issues/1107)) ([75ee95b](https://www.github.com/picchioni/streetmerchant/commit/75ee95b2217fb4bf667869011a009210ff8c22e7))
+* **store:** add ePrice store ([#1016](https://www.github.com/picchioni/streetmerchant/issues/1016)) ([30a51a3](https://www.github.com/picchioni/streetmerchant/commit/30a51a38bee1c399276466e5db457bbe702edd5c))
+* **store:** add Euronics DE ([#1045](https://www.github.com/picchioni/streetmerchant/issues/1045)) ([1774afc](https://www.github.com/picchioni/streetmerchant/commit/1774afc1c3010bd0b183907baa4f3486dc9e8c23))
+* **store:** add expert ([#1105](https://www.github.com/picchioni/streetmerchant/issues/1105)) ([202698f](https://www.github.com/picchioni/streetmerchant/commit/202698f9179b081bd4214979f054e5ff7c805621))
+* **store:** add Gamestop DE ([#1046](https://www.github.com/picchioni/streetmerchant/issues/1046)) ([79a3f33](https://www.github.com/picchioni/streetmerchant/commit/79a3f33150188c7ff0228a38f276ae1fe88b9714))
+* **store:** add Medimax ([#1057](https://www.github.com/picchioni/streetmerchant/issues/1057)) ([7d29ef8](https://www.github.com/picchioni/streetmerchant/commit/7d29ef80ba1ae6682b486ac0b65a516b15a19f93))
+* **store:** add Otto ([#1096](https://www.github.com/picchioni/streetmerchant/issues/1096)) ([af96c5f](https://www.github.com/picchioni/streetmerchant/commit/af96c5f2e808af7496f3c3299e4cf173105de48b))
+* **store:** add smythstoys ([1ed0593](https://www.github.com/picchioni/streetmerchant/commit/1ed05937676c3b6961fcbbb1f3aa80afc3411ac3))
+* **store:** add some italian stores with ps5 links ([#976](https://www.github.com/picchioni/streetmerchant/issues/976)) ([f663579](https://www.github.com/picchioni/streetmerchant/commit/f663579f3d744a5270878975407ad30b31ee0c0a))
+* **store:** add spielegrotte ([#1056](https://www.github.com/picchioni/streetmerchant/issues/1056)) ([cf70f1f](https://www.github.com/picchioni/streetmerchant/commit/cf70f1ff4f942922bfa52adcd5b905e0b39c812a))
+* **store:** add vsgamers ([#767](https://www.github.com/picchioni/streetmerchant/issues/767)) ([53739e0](https://www.github.com/picchioni/streetmerchant/commit/53739e05abf50bbaddb8079087339c9f353096c8))
+* **store:** add wipoid store ([#1018](https://www.github.com/picchioni/streetmerchant/issues/1018)) ([feae978](https://www.github.com/picchioni/streetmerchant/commit/feae978de9e90b96f542d2e53807144d82e380a4))
+* **store:** update the italian store links ([#1002](https://www.github.com/picchioni/streetmerchant/issues/1002)) ([de7036c](https://www.github.com/picchioni/streetmerchant/commit/de7036c7cc6dd7e436ad1d31b988d9d56ad31f76))
+* **topachat:** add `maxPrice` ([d7f2427](https://www.github.com/picchioni/streetmerchant/commit/d7f242780ef1a0a06d5b65ccfc0999e36a87d49d)), closes [#1097](https://www.github.com/picchioni/streetmerchant/issues/1097)
+* add proxy rotation (settable per store) ([#1026](https://www.github.com/picchioni/streetmerchant/issues/1026)) ([490d44e](https://www.github.com/picchioni/streetmerchant/commit/490d44e1fdfdf91db7344dd3050ba8fd8d069631))
+* **amazon:** add more 3070s ([#719](https://www.github.com/picchioni/streetmerchant/issues/719)) ([dde9837](https://www.github.com/picchioni/streetmerchant/commit/dde9837829b9d52e43800a2ac826b5dd00f5a744))
+* **amazon-ca:** add ps5 ([#713](https://www.github.com/picchioni/streetmerchant/issues/713)) ([2570056](https://www.github.com/picchioni/streetmerchant/commit/25700567c57a303a9376351daf015741193350a3))
+* **amd:** add 5950 config ([#685](https://www.github.com/picchioni/streetmerchant/issues/685)) ([31a3d8f](https://www.github.com/picchioni/streetmerchant/commit/31a3d8f7e068a17c72e0c296e176b93625bf9063))
+* **amd:** add env vars and series filtering ([#696](https://www.github.com/picchioni/streetmerchant/issues/696)) ([df3b10b](https://www.github.com/picchioni/streetmerchant/commit/df3b10b9a5c2467e00cacb3ab93f818aafc95f02))
+* **asus:** add backoff codes ([#790](https://www.github.com/picchioni/streetmerchant/issues/790)) ([501ea34](https://www.github.com/picchioni/streetmerchant/commit/501ea34a54e877600050d5a99fd3b71ec799e96a))
+* **coolmod:** add zen 3 ([#754](https://www.github.com/picchioni/streetmerchant/issues/754)) ([3270292](https://www.github.com/picchioni/streetmerchant/commit/32702929a97236d7dc51aa8f669140bc6d89aa9a))
+* **discord:** add cart link to embed ([#762](https://www.github.com/picchioni/streetmerchant/issues/762)) ([ccb207a](https://www.github.com/picchioni/streetmerchant/commit/ccb207abeb43b8e85f32c5c0a7a02aa33b5cdd7c))
+* **galaxus:** add zen 3 ([#729](https://www.github.com/picchioni/streetmerchant/issues/729)) ([4e086e9](https://www.github.com/picchioni/streetmerchant/commit/4e086e92675df97fe7f94c4e6d51b73d63e7effb))
+* **mindfactory:** add ryzen 5900x, 5950x  ([#720](https://www.github.com/picchioni/streetmerchant/issues/720)) ([0362bf8](https://www.github.com/picchioni/streetmerchant/commit/0362bf808198d47e6aaa4a4838251f870d6dce4a))
+* **notification:** add philips hue ([#681](https://www.github.com/picchioni/streetmerchant/issues/681)) ([c8a9b0b](https://www.github.com/picchioni/streetmerchant/commit/c8a9b0ba3ed581a9fef7ee2b459b1de84d976ff0))
+* **notification:** support for multiple phone numbers ([#738](https://www.github.com/picchioni/streetmerchant/issues/738)) ([9f28fe5](https://www.github.com/picchioni/streetmerchant/commit/9f28fe5803fc71bf64d303cd1e7d20d0be8fecac))
+* **playstation:** add `outOfStock` label ([#812](https://www.github.com/picchioni/streetmerchant/issues/812)) ([eb314af](https://www.github.com/picchioni/streetmerchant/commit/eb314afda557369dd27266429ac991c47ecc6375))
+* **ps5:** add console and digital edition ([#709](https://www.github.com/picchioni/streetmerchant/issues/709)) ([42ef7cf](https://www.github.com/picchioni/streetmerchant/commit/42ef7cfdced8ae3bc4192e245469798324bc42d3))
+* **store:** add `arlt` and `amd-de` ([#721](https://www.github.com/picchioni/streetmerchant/issues/721)) ([38937f6](https://www.github.com/picchioni/streetmerchant/commit/38937f6880fcffb3a56ef17acd278f7c2f8d251c))
+* **store:** add `game` store, add ps5 for uk stores ([#736](https://www.github.com/picchioni/streetmerchant/issues/736)) ([0128718](https://www.github.com/picchioni/streetmerchant/commit/0128718ba76b0c431d790cea7dd2183d10a02278))
+* **store:** add `PlayStation` store ([#806](https://www.github.com/picchioni/streetmerchant/issues/806)) ([7c28c7f](https://www.github.com/picchioni/streetmerchant/commit/7c28c7f72b171ce914aba770d88e8b1213c41233))
+* **store:** add 3070 models to pccomponentes & coolmod ([#820](https://www.github.com/picchioni/streetmerchant/issues/820)) ([d0ebffd](https://www.github.com/picchioni/streetmerchant/commit/d0ebffd056dc166e3557ccf694379bf8c10148b5))
+* **store:** add topachat ([#776](https://www.github.com/picchioni/streetmerchant/issues/776)) ([c38bebb](https://www.github.com/picchioni/streetmerchant/commit/c38bebb49dbe8243d0e3f1205150a33f9ce745aa))
+* add amazon-fr to stores. ([#766](https://www.github.com/picchioni/streetmerchant/issues/766)) ([02d7c47](https://www.github.com/picchioni/streetmerchant/commit/02d7c47c4093ad71dfab31f93a9b1390f4cad8a0))
+* **store:** add ps5 to german stores ([#715](https://www.github.com/picchioni/streetmerchant/issues/715)) ([2291b8e](https://www.github.com/picchioni/streetmerchant/commit/2291b8eff5b23613d1233cc4c3ead83a42286d85))
+* **store:** add xbox series x and s ([#732](https://www.github.com/picchioni/streetmerchant/issues/732)) ([314f533](https://www.github.com/picchioni/streetmerchant/commit/314f533f0bab0a466a276c5895d2f00bf86741f4))
+* **store:** add zen 3 to german stores ([#702](https://www.github.com/picchioni/streetmerchant/issues/702)) ([71d5cb4](https://www.github.com/picchioni/streetmerchant/commit/71d5cb426179f5e587adeba1ec60f9a9233ec7b6))
+* **store:** add zen 3 to more stores ([#698](https://www.github.com/picchioni/streetmerchant/issues/698)) ([760ddf5](https://www.github.com/picchioni/streetmerchant/commit/760ddf5d8523e28e294146643dda16e105176dff))
+* **store:** Adds AM3 to microcenter ([#707](https://www.github.com/picchioni/streetmerchant/issues/707)) ([8a45905](https://www.github.com/picchioni/streetmerchant/commit/8a459056c5ba8a5a90de55cfbb08c4c89ccb19d3))
+* **store:** support for canadacomputers ([#772](https://www.github.com/picchioni/streetmerchant/issues/772)) ([bd69e47](https://www.github.com/picchioni/streetmerchant/commit/bd69e471f7b47e7faf1d9858992d4157145518aa))
+* **store:** support for kabum (amd and rtx 30 series) ([#727](https://www.github.com/picchioni/streetmerchant/issues/727)) ([23d061b](https://www.github.com/picchioni/streetmerchant/commit/23d061b387b540803a81212fee937d4c8c9b17ad))
+* add option to disable auto add to cart ([#759](https://www.github.com/picchioni/streetmerchant/issues/759)) ([a5249ec](https://www.github.com/picchioni/streetmerchant/commit/a5249ecc7c3acc29a1f9d5285bd77397263cb135))
+* add production scripts and better `Dockerfile` ([0d14500](https://www.github.com/picchioni/streetmerchant/commit/0d14500d5d8b93204bb99baf34dc9de745ae645d)), closes [#710](https://www.github.com/picchioni/streetmerchant/issues/710)
+* bring back ascii banner, but make it configurable ([#703](https://www.github.com/picchioni/streetmerchant/issues/703)) ([0a680e9](https://www.github.com/picchioni/streetmerchant/commit/0a680e977b7904e7f62a8c1c0f3d533329b23fb0))
+* fix metadata in logging, lint prettier, typed `Model`s ([#747](https://www.github.com/picchioni/streetmerchant/issues/747)) ([318e626](https://www.github.com/picchioni/streetmerchant/commit/318e626e78c18524c4d8624176ccb659c6b6d17c))
+* **target:** add additional selector for 'ship it' ([#737](https://www.github.com/picchioni/streetmerchant/issues/737)) ([ab1fddf](https://www.github.com/picchioni/streetmerchant/commit/ab1fddf20c3a735b746befda0e21462701882645))
+* memoryexpress website support ([#717](https://www.github.com/picchioni/streetmerchant/issues/717)) ([c02241c](https://www.github.com/picchioni/streetmerchant/commit/c02241c7528656c2c2fba9befc36628b4db7befb))
+
+
+### Bug Fixes
+
+* **amazon:** add 5800x and 5600x ([#802](https://www.github.com/picchioni/streetmerchant/issues/802)) ([167713b](https://www.github.com/picchioni/streetmerchant/commit/167713bb14080e5e1d2f77c7ee933918b6fd5cfc))
+* **amazon:** price and cart buttons ([6fd023e](https://www.github.com/picchioni/streetmerchant/commit/6fd023e81e0c54e8fb53b45817b63cb49b8a37ce)), closes [#1125](https://www.github.com/picchioni/streetmerchant/issues/1125)
+* **amazon-de:** `inStock` selector ([14cbd5a](https://www.github.com/picchioni/streetmerchant/commit/14cbd5a05b6f9c3a3ebbc5978156ff2b090efd32)), closes [#1178](https://www.github.com/picchioni/streetmerchant/issues/1178)
+* **amazon-de:** remove xbox cart links ([cbc4330](https://www.github.com/picchioni/streetmerchant/commit/cbc43304bf49863000f422fbff4ed200ea610914)), closes [#1095](https://www.github.com/picchioni/streetmerchant/issues/1095)
+* **bestbuy-ca:** model always indicating in stock ([#1145](https://www.github.com/picchioni/streetmerchant/issues/1145)) ([06f3aaf](https://www.github.com/picchioni/streetmerchant/commit/06f3aafae6ec460c6227a92e6105639be71fc9b3))
+* **bestbuy-ca:** replace old evga xc3 ultra ([#1058](https://www.github.com/picchioni/streetmerchant/issues/1058)) ([65df944](https://www.github.com/picchioni/streetmerchant/commit/65df9449730bce2acb82f5edac25a91bdddd94db))
+* **bestbuy-ca:** use proper selector ([#801](https://www.github.com/picchioni/streetmerchant/issues/801)) ([63d550c](https://www.github.com/picchioni/streetmerchant/commit/63d550ca63b9bfd534f37b7747a1fae057abedb4))
+* **canadacomputers:** add `inStock` selector, use english links ([#889](https://www.github.com/picchioni/streetmerchant/issues/889)) ([06214eb](https://www.github.com/picchioni/streetmerchant/commit/06214eb4a8a5c2d8a180e8dcf846f828d5cce2ed))
+* **ci:** mkdocs deps ([1f63e99](https://www.github.com/picchioni/streetmerchant/commit/1f63e9980499ac567845473dc48e51cab78c838e))
+* **config:** correcting newline split for multiple user agents ([#824](https://www.github.com/picchioni/streetmerchant/issues/824)) ([f16a9fb](https://www.github.com/picchioni/streetmerchant/commit/f16a9fb331fd38590325f399bde369ffa17dbe10))
+* **docker:** copy web directory ([#745](https://www.github.com/picchioni/streetmerchant/issues/745)) ([0754fec](https://www.github.com/picchioni/streetmerchant/commit/0754feccaea2ce2dd37e7caeed3fa0b53c0cdcb3))
+* **memoryexpress:** add backorder to `outOfStock` selector ([#890](https://www.github.com/picchioni/streetmerchant/issues/890)) ([67605a6](https://www.github.com/picchioni/streetmerchant/commit/67605a6e280af35f210c536bc03571a84ea1a7e9))
+* **newegg:** maxPrice selector using used price ([feddac7](https://www.github.com/picchioni/streetmerchant/commit/feddac76d3824e947b0a96524cd940e6b45ffe70)), closes [#1052](https://www.github.com/picchioni/streetmerchant/issues/1052)
+* **newegg:** typo in 5800x url([#903](https://www.github.com/picchioni/streetmerchant/issues/903)) ([a99eecb](https://www.github.com/picchioni/streetmerchant/commit/a99eecb4613bc136e65afe4e5e8788316beae39e))
+* **scan:** links builder ([#1161](https://www.github.com/picchioni/streetmerchant/issues/1161)) ([ca5553c](https://www.github.com/picchioni/streetmerchant/commit/ca5553cb2044c00857412a2af009e5e7f2c1aabf))
+* **smythstoys:** add out of stock label ([5bbdfa2](https://www.github.com/picchioni/streetmerchant/commit/5bbdfa2abc23c2e1fb1c606227754a1701cab194))
+* **store:** add backoffStatusCodes and new captcha container ([#1110](https://www.github.com/picchioni/streetmerchant/issues/1110)) ([0b11238](https://www.github.com/picchioni/streetmerchant/commit/0b11238370040e9cd31e793e9a782ad384c22abf))
+* **store:** generate links only for selected stores ([292e360](https://www.github.com/picchioni/streetmerchant/commit/292e3603fd527a4454639c9abb73bd80a8a95fae)), closes [#694](https://www.github.com/picchioni/streetmerchant/issues/694)
+* **store:** removes unnecessary newegg links from bestbuy ([#1126](https://www.github.com/picchioni/streetmerchant/issues/1126)) ([f2ae423](https://www.github.com/picchioni/streetmerchant/commit/f2ae423fa83d1671a98b9cf3733e587d33727a59)), closes [#1119](https://www.github.com/picchioni/streetmerchant/issues/1119)
+* **store:** update euroFormat for expert and otto ([#1108](https://www.github.com/picchioni/streetmerchant/issues/1108)) ([e198e44](https://www.github.com/picchioni/streetmerchant/commit/e198e44613cda27c0e67dc7e42ca514e66e9cf48))
+* **walmart:** instock container and add test:series ([21e74cf](https://www.github.com/picchioni/streetmerchant/commit/21e74cfe76a5ccf82247315c9951a25e44bb1ce5)), closes [#1106](https://www.github.com/picchioni/streetmerchant/issues/1106)
+* related products being picked up on scan ([#954](https://www.github.com/picchioni/streetmerchant/issues/954)) ([db18157](https://www.github.com/picchioni/streetmerchant/commit/db18157a490b9c9672c32de3372bff0b472a48f3))
+* **walmart:** ps5 digital url ([#763](https://www.github.com/picchioni/streetmerchant/issues/763)) ([841647c](https://www.github.com/picchioni/streetmerchant/commit/841647c06c488cf6b9d6d6af3c3eb6c8dbadab7e))
+* environment variables to match ryzen cpus ([5db8348](https://www.github.com/picchioni/streetmerchant/commit/5db83484f301d48509205d9d0b5146c5d7114d26))
+* revert to 14.15.0 until 15 is stable for `tsc` ([2955ea7](https://www.github.com/picchioni/streetmerchant/commit/2955ea70ab59c1b0dd82ec506c7a03952f81ea01)), closes [#691](https://www.github.com/picchioni/streetmerchant/issues/691)
+
+
+### Reverts
+
+* correcting newline split for multiple user agents ([af631c8](https://www.github.com/picchioni/streetmerchant/commit/af631c86f1a74d810cabf2d0de1b7bb31d350095)), closes [#824](https://www.github.com/picchioni/streetmerchant/issues/824)
+* pipeline changes ([efe0d64](https://www.github.com/picchioni/streetmerchant/commit/efe0d64f060e812fd9846073a13837a3f2a27862))
+
+
+### Code Refactoring
+
+* removed duplicated `Model` ([d19dd5a](https://www.github.com/picchioni/streetmerchant/commit/d19dd5a404f2a585dd80f4d23d0e3af2d435ae85))
+
 ## [3.2.0](https://www.github.com/jef/streetmerchant/compare/v3.1.0...v3.2.0) (2020-12-06)
 
 
